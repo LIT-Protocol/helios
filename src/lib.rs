@@ -28,6 +28,7 @@ pub mod ethereum {
     pub use helios_ethereum::*;
 }
 
-pub mod opstack {
-    pub use helios_opstack::*;
-}
+// we are only using ethereum with Lit so we don't need opstack
+// pub mod opstack {
+//     pub use helios_opstack::*;
+// }

@@ -12,7 +12,7 @@ members = [
     "core",
     "ethereum",
     "ethereum/consensus-core",
-    "opstack",
+    # "opstack",
     "helios-ts",
     "tests/test-utils",        # ToDo(@eshaan7): find a better way to include this
     "verifiable-api/client",
@@ -91,7 +91,7 @@ typenum = "1.17.0"
 helios-common = { path = "./common" }
 helios-core = { path = "./core" }
 helios-ethereum = { path = "./ethereum" }
-helios-opstack = { path = "./opstack" }
+# helios-opstack = { path = "./opstack" }
 
 [dev-dependencies]
 tokio.workspace = true

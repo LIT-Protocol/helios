@@ -3077,7 +3077,6 @@ dependencies = [
  "helios-common",
  "helios-core",
  "helios-ethereum",
- "helios-opstack",
  "helios-verifiable-api-server",
  "hex",
  "plotters",
